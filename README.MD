@@ -1,1 +1,2 @@
-# This is all about design
+# StylesConference
+Styles Conference

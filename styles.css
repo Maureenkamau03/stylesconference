@@ -11,6 +11,11 @@ div {
     width: 960px;
   }
 
+  .hero {
+    
+    padding: 22px 80px 66px 80px;
+  }
+
   h1, h3, h4, h5, p {
     margin-bottom: 22px;
   }
