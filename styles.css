@@ -28,3 +28,9 @@ div {
       border:1px solid #dfe2e5;;
       padding: 10px 30px;
   }
+
+  section {
+    float: left;
+    margin: 0 1.5%;
+    width: 30%;
+  }
