@@ -1,36 +1,77 @@
+/*
+  ========================================
+  Clearfix to contain floats
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+
 div {
     -webkit-box-sizing: content-box;
        -moz-box-sizing: content-box;
             box-sizing: content-box;
   }  
 
-  .container {
-    margin: 0 auto;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 960px;
-  }
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+}
 
-  .hero {
+.hero {
+  
+  padding: 22px 80px 66px 80px;
+}
+
+h1, h3, h4, h5, p {
+  margin-bottom: 22px;
+}
+.btn{
+    border-radius:5px;
+    display:inline-block;
+    margin:0px;
+}
+.btn-alt{
+    border:1px solid #dfe2e5;;
+    padding: 10px 30px;
+}
+
+section {
+  /*float: left;*/
+  display:inline-block;
+  margin: 0 1.5%;
+  width: 30%;
+}
+
+.logo{
+  border-top: 4px solid #648880;
+  padding:40px 0 22px 0;
+  float: left; 
     
-    padding: 22px 80px 66px 80px;
-  }
 
-  h1, h3, h4, h5, p {
-    margin-bottom: 22px;
-  }
-  .btn{
-      border-radius:5px;
-      display:inline-block;
-      margin:0px;
-  }
-  .btn-alt{
-      border:1px solid #dfe2e5;;
-      padding: 10px 30px;
-  }
+  };
+  /*
+  ========================================
+  Primary footer
+  ========================================
+*/
+.primary-footer small{
+  float: left;
+}
 
-  section {
-    float: left;
-    margin: 0 1.5%;
-    width: 30%;
-  }
+.primary-footer{
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
